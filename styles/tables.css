@@ -1,0 +1,47 @@
+.tables{
+    padding: 10px;
+}
+.head{
+    padding: 5px;
+}
+.row{
+    font-weight: 400;
+    padding: 5px;
+}
+.link{
+    text-decoration: none;
+    color: rgb(104, 179, 179);
+}
+.link:hover{
+    color: aqua;
+}
+table {
+    border-collapse: collapse; 
+    width: 50%;
+}
+
+table, th, td {
+    border: 1px solid black; 
+}
+
+th, td {
+    padding: 10px; 
+    text-align: left; 
+}
+@media (max-width: 750px) {
+    table { 
+        width: 80%;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+    table {
+        width: 75%;
+    }
+}
+.course-name{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
